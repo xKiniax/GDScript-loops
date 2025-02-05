@@ -10,7 +10,12 @@ func _ready() -> void:
 	
 	for x in range(10):
 		print("The value is ", x)
-		
+	
+	for x in range(3):
+		for y in range(0, 3):
+			print(y)
+		print()
+	
 		
 func _process(delta: float) -> void:
 	pass
