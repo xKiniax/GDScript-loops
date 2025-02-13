@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvkclgn2o7is2"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_vhno1"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(314, 136)
+script = ExtResource("1_vhno1")
+petal_color = Color(0.888941, 0.532518, 0.804416, 1)
